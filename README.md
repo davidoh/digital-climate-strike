@@ -47,6 +47,14 @@ If you define an object called `DIGITAL_CLIMATE_STRIKE_OPTIONS` before including
      * one day.
      */
     cookieExpirationDays: 1, // @type {number}
+
+    /*
+     * Prevents the widget iframe from loading Google Analytics. Defaults to
+     * false. (Google Analytics will also be disabled if doNotTrack is set on
+     * the user's browser.)
+     */
+    disableGoogleAnalytics: false, // @type {boolean}
+
     /**
      * Allow you to override the iFrame hostname. Defaults to https://assets.digitalclimatestrike.net  
      */
